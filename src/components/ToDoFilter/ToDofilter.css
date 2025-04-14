@@ -1,0 +1,47 @@
+.filterFields {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  .select-container {
+    background-color: white;
+  }
+
+.select-container select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border 0.2s;
+}
+
+.search-container{
+    background-color: white;
+}
+
+.select-container select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}

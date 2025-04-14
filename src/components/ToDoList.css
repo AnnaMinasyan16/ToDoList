@@ -1,0 +1,47 @@
+.to-do-list-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+
+.filterFields{
+  display: flex;
+}
+
+.to-do-list-container h1 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  color: #1e90ff;
+}
+
+.to-do-item-container{
+  background-color: white;
+}
+
+.countOfTasks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+
+.countOfTasks p{
+  background-color: white;
+  color: #1e90ff;
+}
+
+
+.countOfTasks .line {
+  margin-left: 10px;
+  margin-right: 10px;
+}

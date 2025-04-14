@@ -1,0 +1,84 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 12px 16px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .todoEdit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f8ff;
+    padding: 12px 16px;
+    margin: 8px 0;
+    border-radius: 8px;
+    gap: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+
+.isDone{
+    text-decoration: line-through;
+    color: #888;
+}
+
+.checkbox-taskText{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.todoEdit input[type="text"] {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  .todoEdit input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  .checkbox-taskText p {
+    margin: 0;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+.todo button,
+.todoEdit button {
+  background-color: transparent;
+  border: none;
+  padding: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  border-radius: 6px;
+  background-color: white;
+}
+
+
+.todo button img,
+.todoEdit button img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  display: block;
+  background-color: white;
+}
+
+.edit-delete-buttons{
+  background-color: white;
+}
+
+.save-cancel-buttons{
+  background-color:#f0f8ff;
+}

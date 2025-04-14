@@ -1,0 +1,33 @@
+form{
+    background-color: white;
+    display: flex;
+    
+}
+
+.task-input{
+    width: 800px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.add-btn{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+
+.add-btn img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    background-color: white;
+  }
